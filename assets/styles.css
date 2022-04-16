@@ -1,0 +1,36 @@
+#app {
+    max-width: 960px;
+    margin: auto;
+}
+
+.top-bar {
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    z-index: 10;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+    line-height: 0;
+    top: 0;
+}
+.topbar, .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 5px;
+}
+
+.navitem {
+    width: 80px;
+    text-align: center;
+}
+
+.mylogo {
+    max-width: 125px;
+    position: relative;
+}
+
+.overlay-bar .logo-dark {
+    display: none;
+}
