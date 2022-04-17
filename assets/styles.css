@@ -34,3 +34,40 @@
 .overlay-bar .logo-dark {
     display: none;
 }
+
+.bottom-border {
+    width: 100%;
+    height: 4px;
+    background: #820233;
+}
+
+.footer {
+    padding: 20px;
+    font-size: 16px;
+    color:#a87f97;
+    background-color: #530031;
+}
+
+.social-icons {
+    display: inline-block;
+    padding: 0px;
+}
+
+.social-icons li {
+    float: left;
+    margin-right: 24px;
+    font-size: 24px;;
+}
+
+.social-icons li a {
+    font-size: 40px;
+    color: #fff;
+    opacity: 0.2;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.social-icons li a:hover {
+    opacity: 1;
+ }

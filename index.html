@@ -8,14 +8,11 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
     <link rel="manifest" href="assets/site.webmanifest">
     <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <title>LazyAcres Vineyard & Winery</title>
     <meta name="description" content="Hobby vineyard & winery in Browns Valley CA">
     <!-- Import Styles -->
     <link href="css/flexslider.min.css" rel="stylesheet" type="text/css" media="all">
-    <link href="css/line-icons.min.css" rel="stylesheet" type="text/css" media="all">
-    <link href="css/elegant-icons.min.css" rel="stylesheet" type="text/css" media="all">
     <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         type="text/css" media="all">
@@ -29,7 +26,8 @@
     <link href="css/font-cardo.css" rel="stylesheet" type="text/css">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
-
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
     <!--
     <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>    
     <script src="https://www.youtube.com/iframe_api"></script>
@@ -67,8 +65,7 @@
                 </div>
             </div>
         </div>
-        <div class="bottom-border"></div>
-        
+        <div class="bottom-border"></div>        
         <div v-if="content=='home'">
             <home></home>
         </div>
@@ -84,32 +81,28 @@
         <div v-if="content=='contact'">
             <contact></contact>
         </div>
-
-        <div class="footer-container">
-            <footer class="short bg-secondary-1">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 text-center">
-                            <ul class="social-icons">
-                                <li>
-                                    <a href="#">
-                                        <i class="icon social_twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="icon social_facebook"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                            <br>
-                            <br>
-                            <br>
-                            <span style="color:#a87f97;">© Copright 2022 LazyAcres Winery, Browns Valley, CA</span>
-                        </div>
+        <div class="bottom-border"></div>
+        <div class="footer">          
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <ul class="social-icons">
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <br>                      
+                        <span>© Copright 2022 LazyAcres Winery, Browns Valley, CA</span>
                     </div>
                 </div>
-            </footer>
+            </div>           
         </div>
     </div>
     <!-- Create App -->
